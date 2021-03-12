@@ -9,9 +9,9 @@ end
 end
 # returns number of turns that have been played
 
-#def current_player(board)
-  
-#end
+def current_player(board)
+  turn_count % 2 == 0; "X"
+end
 # use turn_count to determine if "X" or "O" turn
 # use % operator; then use .even? and .odd? methods
 
