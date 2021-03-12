@@ -4,8 +4,8 @@ def turn_count(board)
     if spaces == "X" || spaces == "O"
     counter += 1
   end
-  counter
 end
+  counter
 end
 # returns number of turns that have been played
 
