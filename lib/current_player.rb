@@ -14,4 +14,3 @@ end
 # use turn_count to determine if "X" or "O" turn
 # use % operator; then use .even? and .odd? methods
 
-brothers.each{|brother| puts "Stop hitting yourself #{brother}!"}
