@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  board.each
+  board.each{|spaces|
     counter += 1
   end
 end
@@ -11,3 +11,5 @@ def current_player(board)
 end
 # use turn_count to determine if "X" or "O" turn
 # use % operator; then use .even? and .odd? methods
+
+brothers.each{|brother| puts "Stop hitting yourself #{brother}!"}
